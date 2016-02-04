@@ -82,8 +82,8 @@
 			<script>
 			var _s3config = {
 				hash: 24629,
-				height: 180,
-				width: 250,
+				height: 200,
+				width: 575,
 				user: '628484dd9dbab5887bee034aeac932f5',
 				folder: '2016/',
 				secure: false
