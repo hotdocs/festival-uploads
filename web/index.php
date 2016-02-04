@@ -2,10 +2,8 @@
 <html>
 <head>
 <title>S3 Upload</title>
-<link rel="stylesheet" href="http://www.hotdocs.ca/resources/css/blueprint/typography.css" type="text/css" media="screen" charset="utf-8" />
-<link rel="stylesheet" type="text/css" media="screen, projection" href="http://www.hotdocs.ca/resources/css/global/global.css" />
-<link rel="stylesheet" href="/resources/frameworks/uniform/css/uniform.default.css" type="text/css" media="screen" charset="utf-8" />
-<link rel="stylesheet" href="/resources/frameworks/tipsy/css/tipsy.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="/resources/css/blueprint/typography.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://www.hotdocs.ca/resources/css/global/global.css" type="text/css" media="screen, projection" />
 <style>
     #hdFormContainer {
          width: 640px;
@@ -105,7 +103,7 @@
     </div>
 
 </body>
-<script src="http://resources.hotdocs.ca/js/modernizr/modernizr.min.js"></script>
+<script src="https://resources.hotdocs.ca/js/modernizr/modernizr.min.js"></script>
 <script>
     if (Modernizr.file-api) {
       alert("Your browser will work with this upload form.");
