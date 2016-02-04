@@ -1,0 +1,49 @@
+#contentarea {
+	background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_contentarea.png);
+}
+	#contentarea .entry {
+		margin: 20px 24px 0 0;
+	}
+	#contentarea .blog {
+		margin: 20px 24px 0 0;
+	}
+		#contentarea .blog .entry {
+			clear:both;
+			margin:0 0 24px 0;
+			overflow:auto;
+		}
+	#contentarea h2 {
+		color: #393a3c;
+		font: bold 30px/32px Helvetica, Arial, sans-serif;
+		text-transform:capitalize;
+		/* text-shadow: #cccccc 2px 2px 2px; */
+	}
+	#contentarea h3 {
+		color: #393a3c;
+		text-transform:capitalize;
+		font: bold 17px/19px Helvetica, Arial, sans-serif;
+	}
+	#contentarea h4 {
+		color: #393a3c;
+		font: bold 15px/19px Helvetica, Arial, sans-serif;
+		/* text-shadow: #ffffff 1px 1px 1px; */
+	}
+	#contentarea h5 {
+		color: #393a3c;
+		font: bold 11px/19px Helvetica, Arial, sans-serif;
+	}
+	#contentarea p {
+		color: #393a3c;
+		font: normal 12px/18px Helvetica, Arial, sans-serif;
+	}
+	
+	    #contentarea .nextstep-onepanel p {
+	        margin-left:23px;
+	        margin-right:23px;
+	    }
+	
+	#contentarea #sidebar,
+	#contentarea #maincontent,
+	#contentarea #supplemental {
+		padding-bottom:24px;
+	}

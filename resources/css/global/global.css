@@ -1,0 +1,311 @@
+body {
+	background-color: #3b3939;
+	/* REPLACE THE URL BELOW WITH A GRAPHIC RESOURCE OF THE SEASONAL ARTWORK */
+	background: #3b3939 url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_body.png) top center no-repeat;
+	/* background: #3b3939 url(http://resources.hotdocs.ca/img/skin/default/bg_body2011.png) top center no-repeat; */
+	/* background: #3b3939 url(http://resources.hotdocs.ca/img/skin/default/bg_body2012.png) top center no-repeat; */
+	/* background: #3b3939 url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_body2014.png) top center no-repeat; */
+    /* background: #0c3934 url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_body2015.png) top center no-repeat; */
+	
+	background-attachment:fixed;
+}
+a:link, a:visited, a:hover, a:active {
+	color: #393a3c;
+	text-decoration: underline;
+}
+
+body > div.container {
+	/* background: transparent url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_container_2014.png) 0 10px no-repeat; */
+	/* background: transparent url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_container_2015.png) 0 10px no-repeat; */
+	background: transparent url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_container_2016.png) 0 10px no-repeat;
+	/* background: transparent url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_container_20years.png) 0 10px no-repeat; */
+	/* background: transparent url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_containeroffseason2011.png) 0 20px no-repeat; */
+}
+
+#logo h1 {
+	width: 350px; 
+	height: 110px;
+	/* background: url(http://resources.hotdocs.ca/img/skin/default/bg_h1-hotdocs.png) 10px 2px no-repeat; */
+	text-indent: -9999px;
+
+}
+h3 + dl {
+	margin:-1.5em 0 2em 24px;
+}
+	dt {
+		padding:8px 0 0 0;
+		margin:0;
+	}
+	dd {
+		padding:0 0 8px 0;
+		margin:0;
+
+	}
+	
+label {
+	color: #393a3c;
+	font: bold 12px/19px Helvetica, Arial, sans-serif;
+	margin:0;
+	padding:0 0 0 0;
+}
+
+input[type="text"],
+input[type="email"] {
+	margin:0 0 8px 0;
+	padding:4px;
+	font-size: 11px;
+	width:315px;
+}
+input[type="password"] {
+	margin:0 0 8px 0;
+	padding:4px;
+	font-size: 11px;
+	width:315px;
+}
+textarea {
+    margin:0 0 8px 0;
+    padding:4px;
+    font-size: 11px;
+    width:315px;
+}	
+	
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* MOVED FROM subtemplates/head.php */
+
+.fg-button {
+	outline: 0; 
+	margin:0 4px 0 0; 
+	padding: .4em .4em; 
+	text-decoration:none !important; 
+	cursor:pointer; 
+	position: relative; 
+	text-align: center; 
+	zoom: 1; 
+}
+.fg-buttonset-multi .fg-button {
+	margin:0 -3px 0 -2px; 
+}
+#gnav .fg-button {
+	float: left;
+	padding: .4em 1em;
+}
+#gnav .fg-buttonset {
+	float: left;
+}
+#gnav .fg-buttonset .fg-button {
+	margin:0 -3px 0 0; 
+}
+#listings .fg-button span.ui-icon,
+#screenings .fg-button span.ui-icon {
+	margin-right: 2px;
+}
+
+#listings ul {
+	list-style: none;
+	margin:0 0 1em 0;
+	padding:0;
+}
+#listings ul li {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+#listings ul li h3 {
+	margin:0;
+}
+
+.pullquote {
+	float:right;
+	padding: 10px;
+	margin: 5px;
+	width: 158px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	background: transparent url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_quote.png) bottom right no-repeat;
+}
+.nextstep-twopanel {
+	clear: both;
+	border: 1px solid #ccc;
+}
+	.nextstep-twopanel .nextstep1 {
+		width: 49%;
+		border: 1px solid #aaa;
+		float: left;
+	}
+	.nextstep-twopanel .nextstep2 {
+		width: 49%;
+		border: 1px solid #aaa;
+		float: right;
+	}
+.nextstep-onepanel {
+	clear: both;
+	width: 501px;
+	/*height: 183px;*/
+	/*padding: 20px;*/
+	padding-bottom:35px;
+}
+	#festival .nextstep-onepanel {background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/festival/bg_nextstep-onepanel.png) 0% 100% no-repeat;}
+	#docsoup .nextstep-onepanel {background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/docsoup/bg_nextstep-onepanel.png) 0% 100% no-repeat;}
+	#conference .nextstep-onepanel {background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/conference/bg_nextstep-onepanel.png) 0% 100% no-repeat;}
+	#funds .nextstep-onepanel {background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/funds/bg_nextstep-onepanel.png) 0% 100% no-repeat;}
+	#docignite .nextstep-onepanel {background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/docignite/bg_nextstep-onepanel.png) 0% 100% no-repeat;}
+	#youth .nextstep-onepanel {background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/youth/bg_nextstep-onepanel.png) 0% 100% no-repeat;}
+
+	.nextstep-onepanel .nextstep1 {
+		padding:20px 0 0 0;
+		width:100%;
+		background:url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_nextstep-border.png) 0 0;
+	}
+
+.bitbox {
+	clear: both;
+	width: 498px;
+	padding-bottom:5px;
+	background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_bitbox.png) 0% 100% no-repeat;
+}
+	.bitbox .filmbit {
+		padding:20px 20px 0 20px;
+		width:458px;
+		background:url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_filmbit.png) 0 0 no-repeat;
+	}			
+		#contentarea .bitbox .filmbit h3 {
+			margin-bottom: .3em;
+			font: bold 15px/15px Helvetica, Arial, sans-serif;
+		}
+		
+.blogimage {
+	float:left;
+	margin:0 12px 6px 0;
+}
+
+#newspulls {
+	min-height:24px;
+	padding-bottom:60px;
+	background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_newspulls.png) 0% 100% no-repeat;
+}
+
+	#newspulls .pullspanel {
+		min-height: 15px;
+		width:100%;
+		padding:0;
+		background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_pullspanel.png) 0 0 no-repeat;
+	}
+	
+		#newspulls .pullspanel .newspull {
+			float:left;
+			width: 186px;
+			margin: 0 0 0 15px;
+			padding: 10px 20px;
+		}
+		
+		#newspulls .pullspanel .newspull ul {
+			width: 210px;
+			list-style-type: none;
+			padding:0;
+			margin: 10px 0 8px 0;
+		}
+			#newspulls .pullspanel .newspull ul li {
+				margin: 12px 12px 12px 4px;
+			}
+	#release_index {
+		list-style-type: none;
+		padding:0;
+		margin:12px 0 12px 0;
+	}
+		#release_index li {
+			list-style-type:none;
+			padding:8px 0 8px 0;
+		}
+
+/* ----------------  */
+
+.ui-dialog {
+	-x-system-font:none;
+	color:#393A3C;
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:12px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:18px;
+	text-align: left;
+}
+
+
+form.cmxform {
+	margin-bottom: 10px;
+}
+
+form.cmxform label {
+	display: inline-block;
+	line-height: 1.8;
+	vertical-align: top;
+}
+
+form.cmxform ol {
+	margin: 0;
+	padding: 0;
+}
+form.cmxform li {
+	list-style: none;
+	padding: 5px;
+	margin: 0;
+}
+form.cmxform legend {
+	padding: 0 2px;
+	font-weight: bold;
+}
+form.cmxform fieldset {
+	border: 1px solid #ccc;
+	margin: 6px 0 6px 0;
+}
+form.cmxform fieldset legend {
+	padding: 0 0 5px;
+	font-weight: normal;
+}
+form.cmxform fieldset fieldset {
+	border: none;
+	margin:0 0 12px 0;
+	padding:0;
+}
+form.cmxform fieldset fieldset legend {
+	font-size:12px;
+	font-weight: bold;
+}
+form.cmxform fieldset label {
+	display: inline-block;
+	width:110px;
+}
+form.cmxform em {
+	font-weight: bold;
+	font-style: normal;
+	color: #f00;
+}
+form.cmxform label {
+	width: 110px; /* Width of labels */
+}
+form.cmxform fieldset label {
+	width:110px:;
+	/* margin-left: 123px; */ /* Width plus 3 (html space) */
+}
+
+/* Nessecary to avoid the form being */
+/* displayed before the JQuery kicks in */
+#form_ebulletinsignup {
+	display: none;
+}
+
+
+.validity-summary-container {display:none;padding:12px;margin-bottom:12px;}
+.validity-summary-container ul {margin:0;}
+.validity-summary-container ul li {margin:0;}
+.validity-erroneous {background-color:#fef1ec;border:solid 1px #cd0a0a !important; }
+
+#credits p {
+	margin-bottom: 12px;
+	font-size:10px;
+}

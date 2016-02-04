@@ -1,0 +1,13 @@
+.module-informational h2,
+.module-promotional h2,
+.module-actionable h2 {
+	padding: 10px 0 0 10px;
+}
+
+#tnav ul li {
+	float: left;
+	display:inline;
+	width:150px;
+	overflow:hidden;
+}
+

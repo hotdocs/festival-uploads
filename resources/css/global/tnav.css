@@ -1,0 +1,69 @@
+#tnav {
+	color: #fff;
+	font: bold 12px/19px Helvetica, Arial, sans-serif;
+	height: 36px;
+	width: 767px;
+	border: 1px solid #aaaaaa;
+	background: #666262 url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_tnav.png) 0 0 no-repeat;
+	margin: 18px 0 0 0;
+	padding: 0;
+}
+	#festival #tnav {background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/festival/bg_tnav.png) 0 0 no-repeat;}
+	#docsoup #tnav {background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/docsoup/bg_tnav.png) 0 0 no-repeat;}
+	#conference #tnav {
+	    background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/conference/bg_tnav.png) 0 0 no-repeat;
+	}
+	#conference #tnav {
+	    /*
+	    background-image:none;
+	    border:none;
+	    */
+	}
+	#conference #tnav li {
+	    padding:0 6px;
+	}
+	#conference #tnav a.fg-button {
+	    border:1px solid rgb(118,114,114);
+	}
+	#conference #tnav a#events {
+	    background: url(//s3.amazonaws.com/resources.hotdocs.ca/css/jqueryui/hotdocs/images/ui-bg_glass_75_a7cce1_1x400.png);
+	}
+	#conference #tnav a#sessions {
+	    background: url(//s3.amazonaws.com/resources.hotdocs.ca/css/jqueryui/hotdocs/images/ui-bg_glass_75_93bf8f_1x400.png);
+	}
+	#conference #tnav a#market {
+	    background: url(//s3.amazonaws.com/resources.hotdocs.ca/css/jqueryui/hotdocs/images/ui-bg_glass_75_dfca9f_1x400.png);
+	}
+	#conference #tnav a#social {
+	    background: url(//s3.amazonaws.com/resources.hotdocs.ca/css/jqueryui/hotdocs/images/ui-bg_glass_75_e0a1a1_1x400.png);
+	}
+	#funds #tnav {background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/funds/bg_tnav.png) 0 0 no-repeat;}
+	#youth #tnav {background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/youth/bg_tnav.png) 0 0 no-repeat;}
+	#docignite #tnav {background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/docignite/bg_tnav.png) 0 0 no-repeat;}
+	
+	#tnav a:link, #tnav a:visited, #tnav a:hover, #tnav a:active {
+		display: block;
+		height: 32px;
+		line-height: 32px;
+		border-right: 1px solid #ffffff;
+		text-decoration: none;
+		margin: 2px 0 0 0;
+		padding: 0 12px 0 12px;
+	}
+	#conference #tnav a:link, #tnav a:visited, #tnav a:hover, #tnav a:active {
+	    /* Border needs to be removed for nav buttons on schedule */
+	    /* border-right:none; */
+	}
+		#tnav ul {
+			margin: 0;
+			padding: 0;
+			cursor: default;
+			list-style-type: none;
+			display: inline;
+		}
+			#tnav ul li {
+				display: table-cell;
+				/* display: inline; */
+				position: relative;
+				padding: 0;
+			}

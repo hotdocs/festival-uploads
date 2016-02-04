@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>S3 Upload</title>
+<link rel="stylesheet" href="http://www.hotdocs.ca/resources/css/blueprint/typography.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" type="text/css" media="screen, projection" href="http://www.hotdocs.ca/resources/css/global/global.css" />
+<link rel="stylesheet" href="/resources/frameworks/uniform/css/uniform.default.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="/resources/frameworks/tipsy/css/tipsy.css" type="text/css" media="screen" charset="utf-8" />
+<style>
+    #hdFormContainer {
+         width: 640px;
+         padding: 15px;
+         background-color: #ffffff;
+         border-width: 1px;
+         border-style: solid;
+         margin: auto;
+         -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+         -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+         box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+         -moz-border-radius: 7px;
+         -webkit-border-radius: 7px;
+         border-radius: 7px;
+         height: auto;
+    }
+
+    legend {
+         font-family: inherit;
+         font-size: 18px;
+         font-weight: bold;
+         margin: 4px;
+         padding: 12px;
+    }
+
+    fieldset {
+         font-family: inherit;
+         border-width: 1px;
+         border-style: solid;
+         margin: auto;
+         -moz-border-radius: 5px;
+         -webkit-border-radius: 5px;
+         border-radius: 5px;
+         font-size: 12px;
+         width: auto;
+         height: auto;
+         padding: auto;
+    }
+
+    .hdFormTitle {
+         width: 600px;
+         padding: 10px;
+         margin: 0px;
+         font-size: 28px;
+         margin-top:28px;
+    }
+
+    .lineitem {
+        color:#000;
+        text-decoration:none;
+        font-weight:bold;
+    }
+    form table th {
+        text-align:left;
+    }
+</style>
+</head>
+<body>
+    <div id="hdFormContainer">
+        
+        <fieldset>
+            <legend>Hot Docs Trailer and Broadcast Clip Upload</legend>
+            <p>Use the form below to upload your trailer and broadcast clips. Please be patient, depending on upload speeds and the file size the process can take several minutes. For example a 50MB file at 512 Kbit/s will take nearly 15 minutes to upload.</p>
+            <h4>Important:</h4>
+            <p>Use the title of your film to name your trailer and clip files.</p>
+            <p><strong style="text-transfrom:uppercase;">Do not leave spaces or punctuation characters (e.g. apostrophes, commas, colons etc.) in the file names.</strong><p>
+            <p style="margin-left:250px;">
+                e.g.<br>
+                Man_on_Wire_trailer<br>
+                Man_on_Wire_clip1<br>
+                Man_on_Wire_clip2<br>
+                Man_on_Wire_clip3<br>
+            </p>
+            
+            <div id="s3uploader"></div>
+            <script>
+            var _s3config = {
+            	hash: 30489,
+            	height: 180,
+            	width: 620,
+            	user: '628484dd9dbab5887bee034aeac932f5',
+            	folder: '2015/',
+            	onComplete: function(filename){
+            		alert('Upload Complete: ' + filename);
+            	}
+            };
+            var _s3url = "http://s3uploader.com/s3uploader.min.js";
+
+            (function(d,s,a){var b,fjs=d.getElementsByTagName(s)[0];
+            if(d.getElementById(a))return;b=d.createElement(s);
+            b.id=a;b.src=_s3url;fjs.parentNode.insertBefore(b,fjs)}
+            (document,'script','s3uploader-sdk'));
+            </script>
+            
+        </fieldset>
+
+    </div>
+
+</body>
+<script src="http://resources.hotdocs.ca/js/modernizr/modernizr.min.js"></script>
+<script>
+    if (Modernizr.file-api) {
+      alert("Your browser will work with this upload form.");
+    } else {
+      alert("Your browser does not support FileAPI and will not work with this upload form.");
+    }
+</script>
+</html>

@@ -1,0 +1,32 @@
+#anav {
+	margin: 24px 0 0 10px;
+}
+    #anav .anavbutton {
+		font: bold 12px/14px Helvetica, Arial, sans-serif;text-align:center;
+		text-align:left;
+		display: table; 
+		height: 45px; 
+		width:145px;
+		margin: 8px 0 0 0;
+		position: relative; 
+		overflow: hidden;
+		background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_anav-off.png) 0 0 no-repeat;
+	}
+		#anav .anavbutton .vertaligner {
+			#position: absolute; 
+			#top: 50%;
+			display: table-cell; 
+			vertical-align: middle;
+		}
+		#anav .anavbutton .link {
+			display:block;
+			#position: relative; 
+			#top: -50%;
+			width:123px;
+			margin-left:10px;
+			text-decoration:none;
+			color: #303030;
+			font: bold 12px/14px Helvetica, Arial, sans-serif;
+			text-align: center;
+			text-shadow: #ffffff 2px 2px 2px;
+		}

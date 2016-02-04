@@ -1,0 +1,159 @@
+#searchbox {
+	margin: 18px 0 0 0;
+    width: 242px;
+    height: 30px;
+    background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_searchfield.png) no-repeat;
+}
+#searchbox #searchfield {
+    float: left;
+    padding: 0;
+    margin: 6px 0 0 6px;
+    border: 0;
+    width: 139px;
+    background: none;
+	outline: none;
+}
+#searchbox #searchbutton {
+    float: right;
+    margin: 0 0 0 0;
+}
+
+.modulehead {
+	color: #393a3c;
+	font: bold 14px/19px Helvetica, Arial, sans-serif;
+}
+
+
+/* * Begin styles for informational supplimental modules */
+.module-informational {
+	margin: 14px 0 4px 0;
+	background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_modulecontent-white.png) bottom left no-repeat;
+}
+
+#docigniter .module-informational {
+	margin: 14px 0 4px 0;
+	background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_modulecontent-white-span14.png) bottom left no-repeat;
+}
+
+	.module-informational h2 {
+		background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_module-informational.png) 0 0 no-repeat;
+		padding: 0 0 0 10px;
+		margin: 0;
+		height: 60px;
+	}
+	
+	#docigniter .module-informational h2 {
+		background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_module-informational-span14.png) 0 0 no-repeat;
+		padding: 0 0 0 10px;
+		margin: 0;
+		height: 60px;
+	}
+	
+		.module-informational h2 span.modulehead {
+			padding: 2px 0 2px 22px;
+			/* background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/icon_inportantdates.png) 0 0 no-repeat; */
+		}
+
+	.module-informational .modulecontent {
+		padding: 0 10px 10px 15px;
+		margin: -20px 0 0 0;
+	}
+		.module-informational .modulecontent ul {
+			width: 210px;
+			list-style-type: none;
+			padding:0 0 0 0;
+			margin: 5px 0 10px 0;
+		}
+			.module-informational .modulecontent ul li {
+				border-bottom: 1px solid #b5be73;
+				padding:2px 0 3px 0;
+				margin:0 0 0 0;
+			}
+
+
+/* * Begin styles for promotional supplimental modules */
+.module-banner {
+	margin: 14px 0 4px 0;
+	background: none;
+}
+
+/* * Begin styles for promotional supplimental modules */
+.module-promotional {
+	margin: 14px 0 4px 0;
+	background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_modulecontent-white.png) bottom left no-repeat;
+}
+
+	.module-promotional h2 {
+		background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_module-promotional.png) 0 0 no-repeat;
+		padding: 1px 0 0 10px;
+		height: 60px;
+	}
+		.module-promotional h2 span.modulehead {
+			padding: 16px 0 24px 66px;
+			background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/icon_doclibrary.png) 0 0 no-repeat;
+		}
+	
+	.module-promotional .modulecontent {
+		padding: 0 10px 10px 15px;
+		margin: -20px 0 0 0;
+	}
+
+/* * Begin styles for actionable supplimental modules */
+.module-actionable {
+	margin: 14px 0 20px 0;
+	background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_modulecontent-white.png) bottom left no-repeat;
+}
+
+	.module-actionable h2 {
+		background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_module-actionable.png) 0 0 no-repeat;
+		padding: 0 0 0 10px;
+		height: 60px;
+	}
+
+		.module-actionable h2 span.modulehead {
+			padding: 2px 0 2px 22px;
+			/* background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/icon_stayintouch.png) 0 0 no-repeat; */
+		}
+
+		/* #stayintouch is the ID of a specific .module-promotional instance */
+		#twitterlive h2 span.modulehead {
+			padding: 2px 0 2px 22px;
+			background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/icon_twitterbird.png) 0 0 no-repeat;
+		}
+
+		/* #stayintouch is the ID of a specific .module-promotional instance */
+		#stayintouch h2 span.modulehead {
+			padding: 2px 0 2px 22px;
+			background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/icon_stayintouch.png) 0 0 no-repeat;
+		}
+			#ebulletinbox {
+				margin: 0 0 24px 0;
+			    width: 210px;
+			    height: 27px;
+			    background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_ebulletinfield.png) top left no-repeat;
+			}
+			#ebulletinbox #ebulletinfield {
+			    float: left;
+			    padding: 0;
+			    margin: 6px 0 0 6px;
+			    border: 0;
+			    width: 135px;
+			    background: none;
+				outline: none;
+			}
+			#ebulletinbox #emailvalid {
+				float:left;
+				width: 16px;
+				height: 16px;
+				margin:6px 0 0 5px;
+				/* background: url(/resources/images/supplemental_icons/fugue_exclamation-red.png) 0 0 no-repeat; */
+			}
+			#ebulletinbox #btn_ebulletinaction {
+			    float: right;
+			    margin: 0 0 0 0;
+			}
+
+	.module-actionable .modulecontent {
+		padding: 0 10px 10px 15px;
+		margin: -20px 0 0 0;
+	}

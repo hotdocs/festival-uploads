@@ -1,0 +1,173 @@
+a.programlink {
+	padding: 2px 4px 2px 17px;
+	text-decoration: none;
+	background: url('//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_program-generic.png') 0 2px no-repeat;
+}
+a.Next {
+	background: url('//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_program-next.png') 0 2px no-repeat;
+}
+a.World_Showcase {
+	background: url('//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_program-worldsc.png') 0 2px no-repeat;
+}
+a.Special_Presentations {
+	background: url('//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_program-specialpres.png') 0 2px no-repeat;
+}
+a.International_Spectrum {
+	background: url('//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_program-intnlspec.png') 0 2px no-repeat;
+}
+a.Small_Acts {
+	background: url('//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_program-smacts.png') 0 2px no-repeat;
+}
+a.Workers_of_the_World {
+	background: url('//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_program-smacts.png') 0 2px no-repeat;
+}
+a.Rule_Breakers {
+	background: url('//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_program-rulebreakers.png') 0 2px no-repeat;
+}
+a.Nightvision {
+	background: url('//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_program-nightvision.png') 0 2px no-repeat;
+}
+a.Redux {
+	background: url('//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_program-redux.png') 0 2px no-repeat;
+}
+a.Canadian_Spectrum {
+	background: url('//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_program-cdnspec.png') 0 2px no-repeat;
+}
+a.Ripping_Reality {
+	background: url('//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_program-rippingreality.png') 0 2px no-repeat;
+}
+a.Made_In {
+	background: url('//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_program-madein.png') 0 2px no-repeat;
+}
+a.Outstanding_Achievement_Kim_Longinotto {
+	background: url('//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_program-outstandingach.jpg') 0 2px no-repeat;
+}
+a.Outstanding_Achievement_Award_Retrospective {
+    background: url('//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_program-outstandingach.jpg') 0 2px no-repeat;
+}
+a.Focus_On {
+	background: url('//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_program-focuson.png') 0 2px no-repeat;
+}
+a.Featured {
+	background: url('//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_program-generic.png') 0 2px no-repeat;
+}
+a.Rooftop_Docs {
+	background: url('//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_program-generic.png') 0 2px no-repeat;
+}
+ #tnav label {
+     /* border-right: 1px solid #fff; */
+     display:inline-block;
+     height:32px;
+     line-height:32px;
+     margin:2px 0 0 0;
+     padding:0 12px;
+     text-decoration: none;
+     color:#393A3C;
+}
+#tnav form#filmsearch {
+    margin:0;
+    padding:0;
+    display:inline;
+}
+#tnav form#filmsearch input {
+    border:none;
+    height:1.1em;
+}
+
+.listings {
+    width: 100%;
+    font-size: 93%;
+}
+.listings th {
+    padding-bottom: 8px;
+    border-bottom: 1px solid #000000;
+    padding-left:10px;
+}
+
+.listings td {
+    vertical-align: top;
+    padding: 8px 0 8px 10px;
+    margin: 6px 0;
+}
+body#conference .listings td {
+    border-bottom:1px solid #ccc;
+}
+.listings ul {
+    margin: 0;
+    padding: 0;
+}
+.listings ul li {
+    list-style: none outside;
+    margin:0;
+    padding:0;
+}
+.listings .still {
+    /* padding-left: 0 !important; */
+}
+.listings .still img {
+    border:1px solid #cccccc;
+}
+.listings td.desc {
+
+}
+.listings td.category {
+    vertical-align: top;
+}
+#listings tbody tr:hover {
+    background-color: #e8e5e0;
+}
+
+ul.paginate {border:0; margin:0; padding:0;}
+
+.paginate li {
+    border:0; margin:0; padding:0;
+    font-size:11px;
+    list-style:none;
+    margin-right:2px;
+    float:left;
+}
+
+.paginate a {
+    border:solid 1px #9aafe5
+    margin-right:2px;
+}
+
+.paginate strong {
+    background:#c3cf21;
+    color:#FFFFFF;
+    font-weight:bold;
+    display:block;
+    float:left;
+    padding:8px;
+}
+.paginate a:link,
+.paginate a:visited {
+    color:#0e509e
+    display:block;
+    float:left;
+    padding:8px;
+    text-decoration:none;
+}
+.paginate a:hover{
+    /* border:solid 1px #0e509e */
+    font-weight:bold;
+}
+
+.tipsy { padding: 5px; font-size: 10px; font-weight: bold; opacity: 0.85; filter: alpha(opacity=85); background-repeat: no-repeat;  background-image: url(http://resources.hotdocs.ca/js/jquery-tipsy/images/tipsy.gif); }
+  .tipsy-inner { padding: 5px 8px 4px 8px; background-color: black; color: white; max-width: 125px; text-align: center; }
+  .tipsy-inner { -moz-border-radius:3px; -webkit-border-radius:3px; }
+  .tipsy-north { background-position: top center; }
+  .tipsy-south { background-position: bottom center; }
+  .tipsy-east { background-position: right center; }
+  .tipsy-west { background-position: left center; }
+
+  #moderator_list,
+  #panelist_list {
+      visibility:hidden;
+  }
+
+ .session_list h5,
+ .session_list div {
+     background: none;
+     border: none;
+ }

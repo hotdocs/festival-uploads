@@ -1,0 +1,70 @@
+#pagination-links ul {
+	margin-left: 0;
+	padding-left: 0;
+	float: left;
+	background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/pagination/m.gif) repeat-x;
+}
+#pagination-links li {
+	display: inline;
+}
+#pagination-links li#li-open {
+	width: 12px;
+	height: 24px;
+	float: left;
+	background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/pagination/open.gif) no-repeat;
+	text-decoration: none;
+}
+#pagination-links li#li-close {
+	width: 11px;
+	height: 24px;
+	float: left;
+	background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/pagination/close.gif) no-repeat;
+}
+#pagination-links ul a {
+	height: 24px;
+	float: left;
+	background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/pagination/b.gif) no-repeat right top;
+	text-decoration: none;
+	padding-right: 12px;
+	padding-left: 12px;
+	padding-top: 4px;
+}
+#pagination-links strong,
+#pagination-links b {
+	padding-top: 4px;
+	padding-right: 12px;
+	padding-left: 12px;
+	float: left;
+	height: 24px;
+	background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/pagination/b.gif) no-repeat right top;
+}
+#pagination-links li#end-pagination strong,
+#pagination-links li#end-pagination b {
+	padding-top: 4px;
+	padding-right: 6px;
+	padding-left: 6px;
+	float: left;
+	height: 24px;
+	background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/pagination/m.gif) no-repeat top;
+}
+#pagination-links li#end-pagination a {
+	height: 24px;
+	float: left;
+	background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/pagination/m.gif) no-repeat top;
+	text-decoration: none;
+	padding-right: 6px;
+	padding-left: 6px;
+	padding-top: 4px;
+}
+#pagination-links a:link {
+	color: #a50023;
+}
+#pagination-links a:visited {
+	color: #a50023;
+}
+#pagination-links a:hover {
+	color: red;
+}
+#pagination-links a#current {
+	color: red;
+}

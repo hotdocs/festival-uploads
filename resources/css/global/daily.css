@@ -1,0 +1,208 @@
+div[class*="span-"] {
+    
+}
+#dailycontentarea h2 {
+    color: #393a3c;
+    font: bold 30px/32px Helvetica, Arial, sans-serif;
+    text-transform:capitalize;
+}
+#dailycontentarea h3 {
+    margin:22px 0 10px 16px;
+}
+#dailycontentarea h4 {
+    margin:8px 0 4px 0;
+    clear:both;
+}
+#dailycontentarea .dailybutton {
+    margin:16px;
+    clear:both;
+}
+#dailycontentarea #festnews {
+    font-size:11px;
+}
+
+#dailycontentarea #festnews ul {
+    list-style-type:none;
+    margin:0 0 0 16px;
+    padding:0;
+    /* width: 208px; */
+}
+
+#dailycontentarea #shelfa {
+    background: transparent url('http://resources.hotdocs.ca/img/skin/default/bg_shelf-3col.png');
+}
+
+    #dailycontentarea #dailyfeatures {
+        /* background: #ffffff url('http://resources.hotdocs.ca/img/skin/daily/bg_dailyfeatures.png') no-repeat -12px 0; */
+    }
+
+        #dailycontentarea #dailyvideos {
+        
+        }
+        
+        #dailycontentarea #bloorbanner {
+            
+        }
+        
+            #dailycontentarea #bloorbanner img {
+                margin-left: 16px;
+                margin-top: 24px;
+            }
+        
+        #dailycontentarea #dailyscreenings {
+            /* background: #ffffff url('http://resources.hotdocs.ca/img/skin/daily/bg_dailyscreenings.png') no-repeat -12px 0; */
+        }
+    
+            #screenings {
+                margin:0 16px;
+            }
+        /*
+        #dailycontentarea #dailyhotpicks {
+            background: transparent url('http://resources.hotdocs.ca/img/skin/daily/bg_dailyhotpicks.png') no-repeat 1px -8px;
+            min-height:240px;
+        }
+    
+            .hotpick {
+                float:left;
+                width:225px;
+                min-height:160px;
+                margin:0 0 16px 16px;
+            }
+        */
+    
+        #dailycontentarea #contentpartners {
+            /* background: #ffffff url('http://resources.hotdocs.ca/img/skin/daily/bg_dailyfeatures.png') no-repeat -6px -24px; */
+        }
+    
+            #dailycontentarea #contentpartners .partner01 {
+                margin-left:24px;
+            }
+        
+            #dailycontentarea #contentpartners .partner02 {
+                margin-left:10px;
+            }
+        
+#dailycontentarea #shelfb {
+    /* background: transparent url('http://resources.hotdocs.ca/img/skin/daily/bg_dailyshelfb.png') no-repeat 0 0; */
+    background: transparent url('http://resources.hotdocs.ca/img/skin/default/bg_shelf-2col_wr.png');
+}
+
+#dailycontentarea #shelfc {
+    /* background: transparent url('http://resources.hotdocs.ca/img/skin/daily/bg_dailyevents.png') no-repeat 0 -12px; */
+    background: transparent url('http://resources.hotdocs.ca/img/skin/default/bg_shelf-3col.png');
+}
+
+    #dailycontentarea #shelfc #industryevents {
+        /* background: transparent url('http://resources.hotdocs.ca/img/skin/daily/bg_dailyevents.png') no-repeat -12px 17px; */
+    }
+    
+        #dailycontentarea #shelfc #events {
+            margin:0 0 0 16px;
+        }
+    
+    #dailycontentarea #shelfc #supplementals {
+        /* background: transparent url('http://resources.hotdocs.ca/img/skin/daily/bg_dailysupplementals.png') no-repeat -4px 17px; */
+    }
+    /*
+    
+        #supplementals
+            #anav
+                .anavbutton
+                    .vertaligner
+                        .link
+        */
+    
+    #dailycontentarea #shelfc #supplementals .anavbutton.anavwide {
+        width:240px;
+        background: transparent url('http://resources.hotdocs.ca/img/skin/default/bg_anav-off-wide.png') no-repeat 0 0;
+        margin: 8px 0 8px 0;
+    }
+    
+        #dailycontentarea #shelfc #supplementals .anavbutton .vertaligner .link{
+            width:240px;
+        }
+
+        #dailycontentarea #shelfc #supplementals .anavbutton .vertaligner .link{
+            width:240px;
+            text-align:left;
+        }
+
+    #dailycontentarea #shelfd {
+        /* background: transparent url('http://resources.hotdocs.ca/img/skin/daily/bg_dailyshelfb.png') no-repeat 0 -12px; */
+    }
+
+#dailycontentarea .contentslider {
+    visibility:hidden;
+    margin-left: .6em;
+}
+.daily-screenings {
+    visibility:hidden;
+    overflow-y:auto;
+    height:290px;
+    outline: none;
+}
+
+.daily-events {
+    visibility:hidden;
+    overflow-y:auto;
+    height:405px;
+    outline: none;
+}
+
+#featuredvideos .anythingWindow {
+    width:280px;
+    height:350px;
+}
+#dailygalleries .anythingWindow {
+    width:280px;
+    height: 400px;
+}
+#dailygalleries p {
+    margin: 0;
+}
+
+#featuredvideos,
+#dailygalleries {
+    visibility: hidden;
+}
+
+#twitterlive .twtr-hd,
+#twitterlive .twtr-ft {
+    display:none;
+}
+body#daily #billboard-container,
+body#daily #billboard {
+    /*min-height:246px;
+    height:246px;
+    max-height:246px;*/
+    min-height:332px;
+    height:332px;
+    max-height:332px;
+}
+body#daily #anav-container {
+    height:65px;
+    /* background: transparent url('http://resources.hotdocs.ca/img/skin/daily/bg_anav-container.png') 0 0 repeat-x; */
+    margin-top:2px;
+}
+    body#daily #anav {
+        margin:10px 0 0 16px;
+    }
+        body#daily #anav div.anavbutton {
+            float:left;
+            margin:0;
+            width:151px;
+        }
+/*        
+#searchbox {
+    background: url('http://resources.hotdocs.ca/img/skin/daily/bg_searchfield.png') no-repeat; !important;
+    width:322px !important;
+    margin:22px 0 0 8px;
+}
+
+    #searchbox #searchfield {
+        width:180px !important;
+    }
+*/
+#stayintouch {
+    margin-bottom:0;
+}

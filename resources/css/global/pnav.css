@@ -1,0 +1,48 @@
+#pnav {
+	color: #fff;
+	font: bold 16px/19px Helvetica, Arial, sans-serif;
+	/* text-shadow: #4c4c4c 2px 2px 2px; */
+	min-height: 63px;
+	height: 63px;
+	background: transparent url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_pnav.png) 0 0;
+}
+#pnav a:link, #pnav a:visited, #pnav a:hover, #pnav a:active {
+	color: #ffffff;
+	text-decoration: none;
+	display:block;
+	width:125px;
+	height:40px;
+}
+	#festival #pnav {background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/festival/bg_pnav.png) 0 0;}
+	#daily #pnav {background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/festival/bg_pnav.png) 0 0;}
+	#docsoup #pnav {background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/docsoup/bg_pnav.png) 0 0;}
+	#conference #pnav {background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/conference/bg_pnav.png) 0 0;}
+	#funds #pnav {background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/funds/bg_pnav.png) 0 0;}
+	#youth #pnav {background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/youth/bg_pnav.png) 0 0;}
+	#media #pnav {background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_pnav.png) 0 0;}
+	#about #pnav {background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_pnav.png) 0 0;}
+	#docignite #pnav {background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/docignite/bg_pnav.png) 0 0;}
+	/*
+	#youth #pnav {background: url(http://resources.hotdocs.ca/img/skin/default/bg_pnav.png) 0 0;}
+	#youth #pnav {background: url(http://resources.hotdocs.ca/img/skin/default/bg_pnav.png) 0 0;}
+	#youth #pnav {background: url(http://resources.hotdocs.ca/img/skin/default/bg_pnav.png) 0 0;}
+	*/
+	#pnav .tab {
+		min-height: 54px;
+		height: 54px;
+		background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/default/bg_tabs-span6.png) 0 54px;
+		float: left;
+	}
+		#festival #pnav #tab_festival {background-position: 0 108px;}
+		#daily #pnav #tab_festival {background-position: 0 108px;}
+		#docsoup #pnav #tab_docsoup {background-position: 0 162px;}
+		#conference #pnav #tab_conference {background-position: 0 216px;}
+		#funds #pnav #tab_funds {background-position: 0 270px;}
+		#youth #pnav #tab_youth {background-position: 0 324px;}
+		#media #pnav .tab {background-position: 0 54px;}
+		#about #pnav .tab {background-position: 0 54px;}
+		#docignite #pnav #tab_docignite {background-position: 0 648px;}
+		
+		#pnav .tab p {
+			margin: 11px 0 0 16px;
+		}

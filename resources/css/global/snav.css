@@ -1,0 +1,42 @@
+#snav {
+	margin: 24px 0 0 10px;
+}
+    #snav .snavbutton {
+		font: bold 12px/14px Helvetica, Arial, sans-serif;
+		text-align:left;
+		display: table; 
+		height: 41px; 
+		width:150px; 
+		position: relative; 
+		overflow: hidden;
+		background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/about/bg_snav-off.png) 0 0 no-repeat;
+	}	
+		#about #snav .snavbutton {background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/about/bg_snav-off.png) 0 0 no-repeat;}
+		#funds #snav .snavbutton {background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/funds/bg_snav-off.png) 0 0 no-repeat;}
+		#conference #snav .snavbutton {background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/conference/bg_snav-off.png) 0 0 no-repeat;}
+		#docsoup #snav .snavbutton {background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/docsoup/bg_snav-off.png) 0 0 no-repeat;}
+		#festival #snav .snavbutton {background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/festival/bg_snav-off.png) 0 0 no-repeat;}
+		#youth #snav .snavbutton {background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/youth/bg_snav-off.png) 0 0 no-repeat;}
+		#docignite #snav .snavbutton {background: url(//s3.amazonaws.com/resources.hotdocs.ca/img/skin/docignite/bg_snav-off.png) 0 0 no-repeat;}
+	
+		#snav .snavbutton .vertaligner {
+			/* #position: absolute; 
+			#top: 50%; */
+			display: table-cell; 
+			vertical-align: middle;
+		}
+		#snav .snavbutton .link {
+			display:block;
+			position: relative; 
+			top: -50%;
+			width:123px;
+			margin-left:10px;
+			text-decoration:none;
+			color: #303030;
+			font: bold 12px/14px Helvetica, Arial, sans-serif;
+			text-align: center;
+			/* text-shadow: #cccccc 1px 1px 1px; */
+		}
+		#snav .bottom {
+			height: 42px;
+		}
