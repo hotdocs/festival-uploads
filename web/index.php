@@ -78,25 +78,23 @@
                 Man_on_Wire_clip3<br>
             </p>
             
-            <div id="s3uploader"></div>
-            <script>
-            var _s3config = {
-            	hash: 30489,
-            	height: 180,
-            	width: 620,
-            	user: '628484dd9dbab5887bee034aeac932f5',
-            	folder: '2015/',
-            	onComplete: function(filename){
-            		alert('Upload Complete: ' + filename);
-            	}
-            };
-            var _s3url = "http://s3uploader.com/s3uploader.min.js";
+			<div id="s3uploader"></div>
+			<script>
+			var _s3config = {
+				hash: 24629,
+				height: 180,
+				width: 250,
+				user: '628484dd9dbab5887bee034aeac932f5',
+				folder: '2016/',
+				secure: false
+			};
+			var _s3url = "https://s3uploader.com/s3uploader.4.min.js";
 
-            (function(d,s,a){var b,fjs=d.getElementsByTagName(s)[0];
-            if(d.getElementById(a))return;b=d.createElement(s);
-            b.id=a;b.src=_s3url;fjs.parentNode.insertBefore(b,fjs)}
-            (document,'script','s3uploader-sdk'));
-            </script>
+			(function(d,s,a){var b,fjs=d.getElementsByTagName(s)[0];
+			if(d.getElementById(a))return;b=d.createElement(s);
+			b.id=a;b.src=_s3url;fjs.parentNode.insertBefore(b,fjs)}
+			(document,'script','s3uploader-sdk'));
+			</script>
             
         </fieldset>
 
