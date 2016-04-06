@@ -86,7 +86,7 @@
 				width: 575,
 				user: '628484dd9dbab5887bee034aeac932f5',
 				folder: '2016/',
-				secure: false
+				secure: true
 			};
 			var _s3url = "https://s3uploader.com/s3uploader.4.min.js";
 
