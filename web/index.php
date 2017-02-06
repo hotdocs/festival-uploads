@@ -78,14 +78,14 @@
                 Man_on_Wire_clip3<br>
             </p>
             
-
 <div id="s3uploader"></div>
 
 <script>
 var _s3config = {
     licence: 'S3U-REMOTE-ee51d669a91ebed',
-    width: 400,
-    theme: 'default'
+    width: 575,
+    theme: 'default',
+    folder: '2017'
 };
 var _s3url = "https://s3uploader.com/remote/embed.1.js";
 
