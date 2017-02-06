@@ -78,23 +78,27 @@
                 Man_on_Wire_clip3<br>
             </p>
             
-			<div id="s3uploader"></div>
-			<script>
-			var _s3config = {
-				hash: 24629,
-				height: 200,
-				width: 575,
-				user: '628484dd9dbab5887bee034aeac932f5',
-				folder: '2016/',
-				secure: true
-			};
-			var _s3url = "https://s3uploader.com/s3uploader.4.min.js";
 
-			(function(d,s,a){var b,fjs=d.getElementsByTagName(s)[0];
-			if(d.getElementById(a))return;b=d.createElement(s);
-			b.id=a;b.src=_s3url;fjs.parentNode.insertBefore(b,fjs)}
-			(document,'script','s3uploader-sdk'));
-			</script>
+<div id="s3uploader"></div>
+
+<script>
+var _s3config = {
+    licence: 'S3U-REMOTE-ee51d669a91ebed',
+    width: 575,
+    theme: 'basic',
+    folder: '2017',
+    secure: true
+};
+var _s3url = "https://s3uploader.com/remote/embed.1.js";
+
+(function(d,s,a){var b,fjs=d.getElementsByTagName(s)[0];
+if(d.getElementById(a))return;b=d.createElement(s);
+b.id=a;b.src=_s3url;fjs.parentNode.insertBefore(b,fjs)}
+(document,'script','s3uploader-embed'));
+</script>
+
+
+
             
         </fieldset>
 
