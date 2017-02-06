@@ -86,8 +86,7 @@ var _s3config = {
     licence: 'S3U-REMOTE-ee51d669a91ebed',
     width: 575,
     theme: 'basic',
-    folder: '2017',
-    secure: true
+    folder: '2017'
 };
 var _s3url = "https://s3uploader.com/remote/embed.1.js";
 
@@ -96,9 +95,6 @@ if(d.getElementById(a))return;b=d.createElement(s);
 b.id=a;b.src=_s3url;fjs.parentNode.insertBefore(b,fjs)}
 (document,'script','s3uploader-embed'));
 </script>
-
-
-
             
         </fieldset>
 
